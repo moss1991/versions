@@ -87,6 +87,14 @@ h1 {
   background: #313131;
   border-radius: 10px;
 }
+.front{
+  background-blend-mode: soft-light;
+}
+
+.flip > .font::after{
+    filter: blur(15px);/*为了模糊更明显，调高模糊度*/
+}
+
 .flip > .front p,
 .flip > .back p {
   font-size: 0.9125rem;
@@ -153,8 +161,9 @@ NTQrMDA6MDCllMt1AAAAAElFTkSuQmCC" />
 数字中粮</div>
 </div>
 <div id='shuzinongfu' class="flip">
-  <div class="front" style="background-image: url(https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)">
-      <h1 class="text-shadow">数字农服</hi>
+  <!-- <div class="front" style="background-image: url(https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)"> -->
+  <div class="front" style="background-image: url(./wheat.webp)">
+    <h1 class="text-shadow">数字农服</hi>
   </div>
   <div class="back">
       <h2>数字农服</h2>
@@ -162,8 +171,9 @@ NTQrMDA6MDCllMt1AAAAAElFTkSuQmCC" />
   </div>
 </div>
 <div class="flip">
-    <div class="front" style="background-image: url(https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)">
-       <h1 class="text-shadow">数字工厂</hi>
+    <!-- <div class="front" style="background-image: url(https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)"> -->
+    <div class="front" style="background-image: url(./factory1.jpg)">
+      <h1 class="text-shadow">数字工厂</hi>
     </div>
     <div class="back">
        <h2>数字工厂</h2>
@@ -171,8 +181,9 @@ NTQrMDA6MDCllMt1AAAAAElFTkSuQmCC" />
     </div>
 </div>
 <div class="flip">
-    <div class="front" style="background-image: url(https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)">
-       <h1 class="text-shadow">数字营销</hi>
+    <!-- <div class="front" style="background-image: url(https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)"> -->
+    <div class="front" style="background-image: url(./marketing.webp)">
+      <h1 class="text-shadow">数字营销</hi>
     </div>
     <div class="back">
        <h2>数字营销</h2>
@@ -181,8 +192,9 @@ NTQrMDA6MDCllMt1AAAAAElFTkSuQmCC" />
 </div>
 
 <div class="flip">
-  <div class="front" style="background-image: url(https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)">
-     <h1 class="text-shadow">数字地产</hi>
+  <!-- <div class="front" style="background-image: url(https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)"> -->
+  <div class="front" style="background-image: url(./architecture.webp)">
+    <h1 class="text-shadow">数字地产</hi>
   </div>
   <div class="back">
      <h2>数字地产</h2>
@@ -190,8 +202,9 @@ NTQrMDA6MDCllMt1AAAAAElFTkSuQmCC" />
   </div>
 </div>
 <div class="flip">
-  <div class="front" style="background-image: url(https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)">
-     <h1 class="text-shadow">数字金融</hi>
+  <!-- <div class="front" style="background-image: url(https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)"> -->
+  <div class="front" style="background-image: url(./financial.webp)">
+    <h1 class="text-shadow">数字金融</hi>
   </div>
   <div class="back">
      <h2>数字金融</h2>
@@ -199,8 +212,9 @@ NTQrMDA6MDCllMt1AAAAAElFTkSuQmCC" />
   </div>
 </div>
 <div class="flip">
-  <div class="front" style="background-image: url(https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)">
-     <h1 class="text-shadow">数字粮库</hi>
+  <!-- <div class="front" style="background-image: url(https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)"> -->
+    <div class="front" style="background-image: url(./barn.jpg)">
+    <h1 class="text-shadow">数字粮库</hi>
   </div>
   <div class="back">
      <h2>数字粮库</h2>
@@ -209,8 +223,9 @@ NTQrMDA6MDCllMt1AAAAAElFTkSuQmCC" />
 </div>
 
 <div class="flip" id="shuzishangqing">
-  <div class="front" style="background-image: url(https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)">
-     <h1 class="text-shadow">数字商情</hi>
+  <!-- <div class="front" style="background-image: url(https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)"> -->
+  <div class="front" style="background-image: url(./business.webp)">
+    <h1 class="text-shadow">数字商情</hi>
   </div>
   <div class="back">
      <h2>数字商情</h2>
