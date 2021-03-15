@@ -1,13 +1,16 @@
 <!doctype html>
 <html>
 <head>
-  <meta charset="utf-8"></meta>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=1.0">
 
 <style>
   /* @import url("https://fonts.googleapis.com/css?family=Roboto+Mono"); */
 * {
   box-sizing: border-box;
   font-weight: normal;
+  margin:0px;
+  padding:0px;
 }
 
 
@@ -16,15 +19,17 @@ body {
   background: #222;
   text-align: center;
   font-family: "Roboto Mono";
-  padding: 1em;
+  /* padding: 1em; */
+  width:1280px;
+  height:720px;
 }
 
-.head{
-  margin-top:50px;
-}
+/* .head{
+  margin-top:20px;
+} */
 
 .title{
-  margin: 20px;
+  margin: 10px 0 20px 0;
   font-size: 3.2em;
   color:aliceblue;
   padding: 0;
@@ -299,6 +304,10 @@ NTQrMDA6MDCllMt1AAAAAElFTkSuQmCC" />
 
   document.getElementById('shuzishangqing').addEventListener('click',function(){
     window.location.href = 'http://10.6.128.189'
+  })
+
+  document.getElementById('shuzishangqing').addEventListener('click',function(){
+    window.location.href = "http://117.14.55.74:25501"
   })
   document.documentElement.requestFullscreen()
 </script>
